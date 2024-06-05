@@ -15,3 +15,15 @@ function isPrime(number) {
     }
     return true;
 }
+
+function checkIfPrime(num) {
+    if (isPrime(num)) {
+        console.log(num + " é um número primo.");
+    } else {
+        console.log(num + " não é um número primo.");
+    }
+}
+
+const num = 16;
+checkIfPrime(num);
+
