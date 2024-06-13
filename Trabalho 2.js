@@ -23,7 +23,7 @@ function checkIfPrime(num) {
         console.log(num + " não é um número primo.");
     }
 }
-
+//adicione o número em questão
 const num = 16;
 checkIfPrime(num);
 
